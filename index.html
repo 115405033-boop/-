@@ -571,7 +571,7 @@
 ]
 (else:)[
 (go-to: &quot;魔王攻擊&quot;)
-]</tw-passagedata><tw-passagedata pid="31" name="魔王最後的和平請求" tags="" position="1225,1200" size="100,100">魔王已經無力再戰。
+]</tw-passagedata><tw-passagedata pid="31" name="魔王最後的和平請求" tags="" position="1175,1200" size="100,100">魔王已經無力再戰。
 
 他勉強抬起頭，望向你。
 
@@ -598,7 +598,7 @@
 
 **獲勝結局：真正的勇者**
 
-[[重新開始]]</tw-passagedata><tw-passagedata pid="33" name="和平結局" tags="" position="1850,1100" size="100,100">(if: $painting)[
+[[重新開始]]</tw-passagedata><tw-passagedata pid="33" name="和平結局" tags="" position="1850,1150" size="100,100">(if: $painting)[
 你拿出先前購買的奇怪畫像。
 
 魔王突然愣住了。
@@ -642,7 +642,7 @@
 
 **和平結局：世界和平**
 
-[[重新開始]]</tw-passagedata><tw-passagedata pid="34" name="玩家最後的和平請求" tags="" position="1550,1250" size="100,100">生命值：$hp/$maxhp
+[[重新開始]]</tw-passagedata><tw-passagedata pid="34" name="玩家最後的和平請求" tags="" position="1600,1275" size="100,100">生命值：$hp/$maxhp
 
 你已經失去了繼續戰鬥的能力。
 
@@ -659,7 +659,8 @@
 (go-to: &quot;失敗結局&quot;)
 ]
 ]&lt;/div&gt;
-&lt;div&gt;[[接受失敗-&gt;失敗結局]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="35" name="失敗結局" tags="" position="1875,1275" size="100,100">你最終還是敗在了魔王的手中。
+&lt;div&gt;[[接受失敗-&gt;失敗結局]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="35" name="失敗結局" tags="" position="1875,1275" size="100,100">(if:$painting)[你試圖放下武器向魔王提出和平，但魔王只是冷笑一聲，毫不留情地揮出了致命一擊。]
+你最終還是敗在了魔王的手中。
 
 魔王望著倒下的你，緩緩轉身。
 
